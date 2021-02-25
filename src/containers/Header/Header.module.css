@@ -1,0 +1,87 @@
+.Header {
+  background-position: top center;
+  background-size: 100% 100%;
+  min-height: 700px;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.Header_content {
+  position: absolute;
+  left: 10px;
+  bottom: 50px;
+}
+
+.Header_content_button {
+  width: fit-content;
+  padding: 15px 50px;
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: large;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.Header_content_button img {
+  height: 20px;
+  margin-right: 20px;
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+.Header_content_button p {
+  margin: 0 0 0 20px;
+}
+
+.Header_content_button_black {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fafafa;
+}
+
+.Header_content_button:hover {
+  opacity: 0.7;
+}
+.Header_header {
+  font-size: 6rem;
+  margin: 0;
+}
+
+.fakeBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.6),
+    #121212
+  );
+  height: 7.4rem;
+}
+
+@media (max-width: 1100px) {
+  .Header_header {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 700px) {
+  .Header_header {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  .Header_header {
+    font-size: 2rem;
+  }
+  .Header_content_button {
+    padding: 15px 30px;
+  }
+  .Header_content_button img {
+    top: 15px;
+    left: 15px;
+  }
+}
