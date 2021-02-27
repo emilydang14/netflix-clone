@@ -15,7 +15,7 @@ The web app is being hosted at Firebase Hosting. The error handling in this web 
 
 ## How the application works?
 
-Demo version online: [Emily's NetFlix Clone Application](https://whatsapp-clone-83b62.web.app/)
+Demo version online: [Emily's NetFlix Clone Application](https://netflix-clone-emily-dang.web.app/)
 
 <img src="https://github.com/emilydang14/nextflix-clone/blob/main/demo.gif" width="700">
 
