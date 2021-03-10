@@ -6,6 +6,8 @@ Cloning Netflix movie watching site using ThemovieDB api and movie-trailer npm p
 
 The web app is being hosted at Firebase Hosting. The error handling in this web app is a bit challenging. But everything was handled. 
 
+Notes: This is the learning project made with the guidance from Youtube with personal adjustment
+
 ## Technology used: 
   - React Js: React Hook
   - Firebase Hosting
